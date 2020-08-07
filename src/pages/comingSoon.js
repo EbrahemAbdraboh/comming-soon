@@ -54,7 +54,7 @@ const ComingSoon = () => {
                 {/* countdown */}
                 <div className="cs-14-countdown space-mt--50">
                   <Countdown
-                    date={new Date("April 05, 2083 12:12:00")}
+                    date={new Date("April 05, 2021 12:12:00")}
                     renderer={Renderer}
                   />
                 </div>
