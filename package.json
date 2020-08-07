@@ -1,0 +1,53 @@
+{
+  "name": "comming-soon",
+  "version": "1.0.0",
+  "private": true,
+  "homepage": "https://ebrahemabdraboh.github.io/comming-soon/",
+  "dependencies": {
+    "@testing-library/jest-dom": "^4.2.4",
+    "@testing-library/react": "^9.3.2",
+    "@testing-library/user-event": "^7.1.2",
+    "bootstrap": "^4.4.1",
+    "moment": "^2.24.0",
+    "react": "^16.13.1",
+    "react-app-polyfill": "^1.0.6",
+    "react-countdown": "^2.2.1",
+    "react-dom": "^16.13.1",
+    "react-helmet": "^5.2.1",
+    "react-icons": "^3.9.0",
+    "react-mailchimp-subscribe": "^2.1.0",
+    "react-router-dom": "^5.1.2",
+    "react-scripts": "3.4.1",
+    "react-scroll": "^1.7.16",
+    "react-svg": "^11.0.15"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all",
+      "ie 11"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version",
+      "ie 11"
+    ]
+  },
+  "devDependencies": {
+    "node-sass": "^4.13.1",
+    "prop-types": "^15.7.2"
+  }
+}
